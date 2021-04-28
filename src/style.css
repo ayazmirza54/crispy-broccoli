@@ -1,0 +1,35 @@
+body
+{
+margin : 0;
+padding : 0;
+box-sizing: border-box;
+
+}
+div {
+    padding : 10px 1.5em 10px 1.5em ;
+   
+    background-color: #35598f;
+  
+}
+li{
+    text-decoration: none;
+    list-style: none;
+   
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ul {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: 0 1 1;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li:hover {
+    text-decoration: underline aqua 2px;
+}
